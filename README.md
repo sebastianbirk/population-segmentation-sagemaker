@@ -9,6 +9,6 @@ This repository contains code to train and deploy a PCR and K-Means model with A
 3. Dimensionality reduction with PCA
 4. Feature engineering and data transformation
 5. Clustering transformed data with k-means
-6. Extracting trained model attributes and visualizing k clusters",
+6. Extracting trained model attributes and visualizing k clusters
 
 These tasks make up a complete machine learning workflow from data loading and cleaning to model deployment.
