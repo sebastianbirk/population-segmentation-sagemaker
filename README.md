@@ -4,11 +4,13 @@ This repository contains code to train and deploy a PCR and K-Means model with A
 
 ## General Project Outline
 
-1. Data loading and exploration
-2. Data cleaning and pre-processing
-3. Dimensionality reduction with PCA
-4. Feature engineering and data transformation
-5. Clustering transformed data with k-means
-6. Extracting trained model attributes and visualizing k clusters
+1. Loading and exploring the data
+2. Splitting the data into train/test sets
+3. Defining and training a LinearLearner, binary classifier
+4. Making improvements on the model
+5. Evaluating and comparing model test performance
 
-These tasks make up a complete machine learning workflow from data loading and cleaning to model deployment.
+The project will focus on making prediction improvements starting from a baseline model. Specifically, it will address techniques for:
+
+- Tuning a model's hyperparameters and aiming for a specific metric, such as high recall or precision.
+- Managing class imbalance, which is when we have many more training examples in one class than another (in this case, many more valid transactions than fraudulent).
